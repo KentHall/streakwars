@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SteakWars</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <h1 class="logo">🥩 SteakWars</h1>
+        <nav>
+            <a href="#features">Features</a>
+            <a href="#about">About</a>
+            <a href="#contact">Join</a>
+        </nav>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero">
+        <h2>Set Goals. Compete. Win.</h2>
+        <p>
+            SteakWars turns your goals into competitive challenges.
+            Stay accountable, compete with friends, and never miss a target.
+        </p>
+        <button onclick="downloadApp()">Join the War</button>
+    </section>
+
+    <!-- Features -->
+    <section id="features" class="features">
+        <h2>Why SteakWars?</h2>
+        <div class="feature-box">
+            <div class="feature">🎯 Set Personal Goals</div>
+            <div class="feature">⚔️ Compete With Others</div>
+            <div class="feature">🏆 Leaderboards & Rewards</div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="about">
+        <h2>About SteakWars</h2>
+        <p>
+            SteakWars is a goal-setting app that adds real competition.
+            Whether it’s fitness, studying, productivity, or habits,
+            you put stakes on your goals and battle others to stay motivated.
+        </p>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact">
+        <h2>Get Early Access</h2>
+        <input type="email" id="email" placeholder="Enter your email">
+        <button onclick="submitEmail()">Notify Me</button>
+        <p id="message"></p>
+    </section>
+
+    <footer>
+        <p>© 2025 SteakWars. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
